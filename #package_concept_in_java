@@ -1,0 +1,44 @@
+// Definng a pacage in java language 
+package owner; // package creation
+public class Abhishek
+{
+Public Abhishek()
+{
+System.out.println("Hi my name is Abhishek Kumar ! ");
+}
+}  // Save it <Abhishek.java>in same <owner> directory 
+//  .........................next class and store in same owner directory ..........
+
+package owner; // again defing package 
+public class Madhav_Rawat
+{
+public static  void show()
+{
+System.out.println("Hii  , my name is Madhav Rawat , nice to meet you !");
+}
+} // Save it <Madhav_Rawat.java>in same <owner> directory 
+//  ......................... again defing next class and store in same owner directory ..........
+package owner; // again defing package 
+public class Shiwam 
+{
+public static  void show()
+{
+System.out.println("Hii  , myself Shiwam Gupta , Glad to meet you !");
+}
+} // Save it <Shiwam.java>in same <owner> directory 
+// finally Making test directory which is stored in defferent<not owner> directory ,but same directorey where owner is stored 
+
+import owner.*; // importing all classes stored in owner's package 
+public class Test_concept
+{
+public static void main(String args[]) // making main() method to run the code 
+{
+  // ........creating objects here .........
+Abhishek A = new Abhishek(); 
+Madhav_Rawat M = new Madhav_Rawat();
+Shiwam S = new Shiwam();
+// .........calling objects here ......
+M.show();
+S.show();
+}
+} // save it <Test_cocept.java> in same directory accept <owner>directory
