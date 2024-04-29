@@ -2,7 +2,7 @@
 package owner; // package creation
 public class Abhishek
 {
-Public Abhishek()
+public Abhishek()
 {
 System.out.println("Hi my name is Abhishek Kumar ! ");
 }
